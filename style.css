@@ -7,7 +7,7 @@ body {
 
 .header {
   width: 500px;
-  margin: 0 auto;
+  margin: 0 auto 17px;
   display: block;
   text-align: right;
 }
@@ -31,7 +31,7 @@ body {
 .main {
   display: block;
   width: 500px;
-  margin: 0 auto 0;
+  margin: 1px auto 0;
 }
 
 .task__item {
@@ -102,13 +102,21 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.add-task h3{
+
+.add-task{
+  margin-bottom: 16px;
+}
+
+.add-task h3 {
+
   display: block;
   margin: 0 0 20px;
 }
 
+
 .new-task {
-  width: 318px;
+  display: inline-block;
+  flex-grow: 1;
 }
 
 p > button:hover {
@@ -116,6 +124,8 @@ p > button:hover {
 }
 
 /* Task list */
+
+
 li {
   overflow: hidden;
   padding: 20px 0;
